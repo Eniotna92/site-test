@@ -1,0 +1,12 @@
+
+.title {
+    background-color:royalblue;
+    height:10%;
+}
+section {
+    background-image: url("/Users/shino/Documents/projetweb/site-test/images/wale.jpg");
+    background-size: cover;
+}
+footer {
+    background-color: coral;
+}
