@@ -1,4 +1,6 @@
-
+ .summary{
+    font-size: 20px;
+}
 .text {
     background-image: url("/Users/shino/Documents/projetweb/site-test/images/wale.jpg");
     background-size: cover;
@@ -11,7 +13,8 @@
 }
 
 header {
-    background-color: royalblue;
+    background-color: rgb(65, 102, 225);
+    height: 100px;
 }
 
 footer {
