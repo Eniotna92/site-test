@@ -1,12 +1,18 @@
-
+.img-fluid {
+    width: 120px;
+    height: 120px;
+}   
 .text {
     background-image: url("/Users/shino/Documents/projetweb/site-test/images/wale.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width:100vmax;
-    height:100vmax;
+    width:1500px;
+    height:1500px;
     margin: 0px;
     padding:0px;
+    color: aqua;
+    font-style: oblique;
+    font-weight: bold;
  
 }
 
