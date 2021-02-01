@@ -13,3 +13,6 @@ footer {
     text-align: center;
     background-color: red;
 }
+a {
+    font-weight: bold;
+}
