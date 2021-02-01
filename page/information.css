@@ -1,0 +1,15 @@
+header {
+    background-color: brown;
+    
+}
+p {
+    display: inline;
+}
+section {
+    background-color:lightslategrey;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: red;
+}
