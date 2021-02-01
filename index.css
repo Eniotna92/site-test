@@ -2,6 +2,9 @@
     width: 120px;
     height: 120px;
 }   
+p {
+    display:inline;
+}
 .text {
     background-image: url("/Users/shino/Documents/projetweb/site-test/images/wale.jpg");
     background-size: cover;
@@ -25,6 +28,3 @@ footer {
     text-align: center;
 }
 
-p {
-    display:inline;
-}
