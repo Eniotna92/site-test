@@ -10,7 +10,6 @@ h1 {
 }
 
 div .text {
-    background-color:lightslategrey;
     display: inline;
 }
 section {
@@ -19,7 +18,7 @@ section {
 }
 footer {
     text-align: center;
-    background-color: red;
+    background-color: rgb(0, 217, 255);
 }
 footer .a {
     font-weight: bold;
