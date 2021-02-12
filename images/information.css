@@ -1,18 +1,26 @@
 header {
-    background-color: brown;
+    background-color:lightskyblue;
+    text-align: center;
+    align-items: center;
     
 }
-p {
+
+h1 {
+    display: inline;
+}
+
+div .text {
+    background-color:lightslategrey;
     display: inline;
 }
 section {
-    background-color:lightslategrey;
     text-align: center;
+    height: 100vh;
 }
 footer {
     text-align: center;
     background-color: red;
 }
-a {
+footer .a {
     font-weight: bold;
 }

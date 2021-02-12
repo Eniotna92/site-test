@@ -6,7 +6,7 @@ p {
     display:inline;
 }
 .text {
-    background-image: url("/Users/shino/Documents/projetweb/site-test/images/wale.jpg");
+    background-image: url("../images/wale.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width:100vmax;
