@@ -1,8 +1,18 @@
+html, body {
+	height: 100%;
+	margin: 0; 
+    padding: 0;
+}
+
 header {
     background-color:lightskyblue;
     text-align: center;
     align-items: center;
     
+}
+body {
+	display : table;
+	width: 100%;
 }
 
 h1 {
@@ -14,9 +24,9 @@ div .text {
 }
 section {
     text-align: center;
-    height: 100vh;
 }
 footer {
+    display : table-row;
     text-align: center;
     background-color: rgb(0, 217, 255);
 }
