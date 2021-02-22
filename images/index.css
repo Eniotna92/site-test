@@ -1,29 +1,32 @@
-.img-fluid {
+html, body {
+	height: 100%;
+	margin: 0px; 
+    padding: 0px;
+}
+
+body {
+    display : table;
+    width: 100%;
+}
+header {
+    background-color: royalblue;
+}
+header .img-fluid {
     width: 120px;
     height: 120px;
 }   
 p {
     display:inline;
 }
-.text {
-    background-image: url("../images/wale.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:100vmax;
-    height:100vmax;
-    margin: 0px;
-    padding:0px;
-    color: aqua;
-    font-style: oblique;
-    font-weight: bold;
- 
-}
 
-header {
-    background-color: royalblue;
+section .img-fluid {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
 
 footer {
+    display : table-row;
     background-color: coral;
     text-align: center;
 }
