@@ -20,12 +20,17 @@ p {
 }
 
 section .img-fluid {
-    margin: 0px;
-    padding: 0px;
+    position: absolute;
+    left: 0px;
+    height: 100%;
     width: 100%;
 }
 
 footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     display : table-row;
     background-color: coral;
     text-align: center;
