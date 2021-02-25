@@ -3,6 +3,10 @@ html, body {
 	margin: 0; 
     padding: 0;
 }
+body {
+    display : table;
+    width: 100%;
+}
 
 header {
     background-color:lightskyblue;
@@ -10,20 +14,17 @@ header {
     align-items: center;
     
 }
-body {
-	display : table;
-	width: 100%;
-}
 
 h1 {
     display: inline;
 }
+section {
+    text-align: center;
+    height: 100%;
+}
 
 div .text {
     display: inline;
-}
-section {
-    text-align: center;
 }
 footer {
     display : table-row;
@@ -35,4 +36,22 @@ footer .a {
 }
 .return{
     color: black;
+}
+
+@media screen and (max-width: 1000px) and (orientation: portrait) {
+    section {
+        background-color: black;
+    }
+    div .text {
+        color:white;
+    }
+}
+
+@media screen and (max-width: 1300px) and (orientation: landscape) {
+    section {
+        background-color: black;
+    }
+    div .text {
+        color:white;
+    }
 }
