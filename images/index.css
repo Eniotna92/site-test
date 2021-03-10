@@ -30,7 +30,7 @@ footer {
     position: fixed;
     bottom: 0px;
     left: 0px;
-    right: 0px;
+    right: 10px;
     display : table-row;
     background-color: coral;
     text-align: center;
